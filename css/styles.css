@@ -1,0 +1,279 @@
+/* 
+SITE COLORS:
+title color #303030
+text color #555555
+secondary text color #9DA4BD
+accent color #FF6C00
+backgraund color/white #FFFFFF
+ */
+:root {
+  --title-color: #303030;
+  --text-color: #555555;
+  --secondary-text-color: #9da4bd;
+  --secondary-text-color-alfa: rgba(157, 164, 189, 0.6);
+  --accent-color: #ff6c00;
+  --backgraund-white-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  background-color: #008080;
+  color: var(--text-color);
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+
+/* HEADER */
+
+.site-nav .link {
+  color: var(--backgraund-white-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contact {
+  color: var(--backgraund-white-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+.button {
+  color: var(--backgraund-white-color);
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border: var(--accent-color);
+  cursor: pointer;
+}
+.black-text-btn {
+  color: var(--title-color);
+}
+
+/* CAPITAN */
+
+.capitan .link {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.capitan .link:hover,
+.capitan .link:focus {
+  color: var(--accent-color);
+}
+.capitan-pre-title {
+  color: var(--secondary-text-color-alfa);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.capitan-title {
+  color: var(--backgraund-white-color);
+  font-family: Raleway;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+}
+.capitan-after-title {
+  color: var(--secondary-text-color);
+  line-height: 1.67;
+}
+
+/* ABOUT */
+
+.about-pre-title {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.about-title {
+  color: var(--title-color);
+  font-family: 'Raleway';
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.about-after-title {
+  line-height: 1.67;
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+/* PRICE */
+
+.price-text {
+  color: var(--secondary-text-color-alfa);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.price-title {
+  color: var(--backgraund-white-color);
+  font-family: 'Raleway';
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.price-list {
+  color: var(--secondary-text-color);
+  line-height: 1.67;
+}
+
+/* FEATURES */
+.feature-item {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+}
+.feature-text {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+
+.feature-pre-title {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.feature-title {
+  color: var(--title-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.feature-after-title {
+  line-height: 1.67;
+}
+
+/* BARBERS */
+.barbers {
+  background-color: #f7f7f7;
+}
+.barber-text {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.barber-title {
+  color: var(--title-color);
+  font-family: 'Raleway';
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.barber-name {
+  color: var(--title-color);
+  line-height: 1.39;
+}
+.barber-position {
+  color: var(--accent-color);
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+/* GALLERY */
+
+/* HIDDEN TITLE */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.gallery-text {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.booking-title {
+  color: var(--backgraund-white-color);
+  font-family: 'Raleway';
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.address {
+  font-style: normal;
+}
+.map {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  line-height: 1.67;
+}
+.tel,
+.mail {
+  color: var(--secondary-text-color);
+  line-height: 1.67;
+}
+.working-hours {
+  color: var(--backgraund-white-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.schedule {
+  color: var(--secondary-text-color);
+  line-height: 1.67;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #f7f7f7;
+}
+.copyright {
+  color: var(--secondary-text-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.footer .link {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
