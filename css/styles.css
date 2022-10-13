@@ -63,7 +63,10 @@ body {
 }
 
 /* HEADER */
-
+.header {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -79,6 +82,9 @@ body {
 }
 .logo {
   margin-right: 130px;
+}
+.header-connect {
+  padding-right: 17px;
 }
 .site-nav .link {
   display: block;
