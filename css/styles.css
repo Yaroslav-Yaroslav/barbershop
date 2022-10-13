@@ -63,9 +63,7 @@ body {
 }
 
 /* HEADER */
-.header {
-  padding: 25px 0;
-}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -79,17 +77,12 @@ body {
   display: flex;
   gap: 30px;
 }
-.header-connect {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
 .logo {
   margin-right: 130px;
 }
 .site-nav .link {
-  padding: 15px 0;
-
+  display: block;
+  padding: 24px 0;
   color: var(--backgraund-white-color);
   font-weight: 600;
   font-size: 12px;
@@ -101,6 +94,8 @@ body {
   color: var(--accent-color);
 }
 .contact {
+  margin-right: 40px;
+
   color: var(--backgraund-white-color);
   font-weight: 600;
   font-size: 12px;
@@ -134,14 +129,14 @@ body {
   padding: 187px 526px 236px 100px;
 }
 
-.capitan .link {
+.socials-list .link {
   color: var(--title-color);
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
 }
-.capitan .link:hover,
-.capitan .link:focus {
+.socials-list .link:hover,
+.socials-list .link:focus {
   color: var(--accent-color);
 }
 .capitan-pre-title {
@@ -423,9 +418,10 @@ body {
 }
 .footer-container {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
 }
+
 .footer-list {
   display: flex;
   gap: 40px;
@@ -436,13 +432,14 @@ body {
   font-size: 11px;
   line-height: 1.36;
 }
-.footer .link {
+.footer-list .link {
+  display: block;
   color: var(--title-color);
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
 }
-.footer .link:hover,
-.footer .link:focus {
+.footer-list .link:hover,
+.footer-list .link:focus {
   color: var(--accent-color);
 }
